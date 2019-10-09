@@ -4,3 +4,4 @@ class Transfer
   def intiliaze(name)
     @name = name
 end
+end
