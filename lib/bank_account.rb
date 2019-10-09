@@ -1,10 +1,10 @@
 class BankAccount
   
-  attr_accessor :account, :name 
+  attr_accessor :amount
+  attr_reader :name
   
-  def initialize(account)
-    @account = account
-    @account = 1000
+  def initialize(amount)
+    @amount = 1000
    end
   
   def initialize(name)
