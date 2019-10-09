@@ -4,11 +4,8 @@ class BankAccount
   attr_reader :name
   
   def initialize(name)
+    @name = name
     @amount = 1000
     @status = "open"
    end
-  
-  def initialize(name)
-    @name = name
-  end
 end
