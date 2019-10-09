@@ -19,7 +19,7 @@ class BankAccount
    
    def valid
      if @balance > 0
-       "Account valid"
+       @status == "Account valid"
       else
         "Account closed"
       end
