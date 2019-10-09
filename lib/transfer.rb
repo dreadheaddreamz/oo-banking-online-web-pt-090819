@@ -11,7 +11,7 @@ class Transfer
     def valid?
       if @sender && @receiver == 0
         @status == "not valid"
-      then
+      else
         @sender && @receiver > 0
         @status == "valid"
       end
