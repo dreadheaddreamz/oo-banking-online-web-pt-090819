@@ -1,5 +1,5 @@
 class Transfer
-  attr_accessor :amount
+  attr_accessor :transfer
   
   def intiliaze(transfer)
     @transfer = transfer
