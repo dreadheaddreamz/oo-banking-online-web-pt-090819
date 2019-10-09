@@ -1,3 +1,6 @@
 class Transfer
-  # your code here
+  attr_accessor :amount
+  
+  def intiliaze(name)
+    @name = name
 end
