@@ -19,5 +19,9 @@ class BankAccount
    
    def valid
      if @balance > 0
-       puts 
+       "Account valid"
+      else
+        "Account closed"
+      end
+    end
 end
