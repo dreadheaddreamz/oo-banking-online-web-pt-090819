@@ -23,4 +23,5 @@ class BankAccount
   else
     @status == "open"
     end
+  end
 end
