@@ -15,7 +15,7 @@ class Transfer
        # @sender or @receiver > 0
         #@status == "valid"
       #end
-      
+      @sender.valid? && @receiver.valid? ? true : false
     end
         
       
