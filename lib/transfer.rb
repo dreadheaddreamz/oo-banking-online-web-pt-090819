@@ -10,6 +10,12 @@ class Transfer
       
     def valid?
       if @sender && @receiver == 0
+        @status == "not valid"
+      else
+        @sender && @receiver > 0
+        @status == "valid"
+      end
+    end
         
       
     
