@@ -2,9 +2,9 @@ class Transfer
   attr_accessor :sender, :reciever, :status, :amount
   
   def intiliaze(sender,reciever,status,amount)
-@sender = sender    
-    
+    @sender = sender    
+    @reciever = reciever 
+    @status = status
     @amount = amount
-    @reciever = reciever
-  end
+    end
 end
