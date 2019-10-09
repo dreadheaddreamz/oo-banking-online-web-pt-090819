@@ -9,7 +9,8 @@ class Transfer
       end
       
     def valid?
-      if 
+      if @sender && @receiver == 0
+        
       
     
     
