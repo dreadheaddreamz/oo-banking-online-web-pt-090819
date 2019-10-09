@@ -21,6 +21,7 @@ class BankAccount
      if @balance > 0
        @status == "open"
       else
+        @balance < 0
         @status == "closed"
       end
     end
