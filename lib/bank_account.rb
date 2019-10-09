@@ -18,11 +18,9 @@ class BankAccount
    end
    
    def valid?
-     if @balance > 0
-      puts "Your account is open"
-    else
-        @balance < 0
-        puts "Your account is closed"
-      end
+    if @balance == 0 
+    then @status == "closed"
+  else
+    @status == "open"
     end
 end
