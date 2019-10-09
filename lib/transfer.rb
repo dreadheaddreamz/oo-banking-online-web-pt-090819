@@ -9,10 +9,10 @@ class Transfer
       end
       
     def valid?
-      if @sender ; @receiver == 0
+      if @sender && @receiver == 0
         @status == "not valid"
       then
-        @sender ; @receiver > 0
+        @sender && @receiver > 0
         @status == "valid"
       end
     end
